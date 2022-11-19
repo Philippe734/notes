@@ -1,5 +1,7 @@
 #### Open control center from terminal:
 ```mate-control-center```
+#### Set layout panel to Redmond with terminal
+mate-panel --reset --layout redmond && killall mate-panel```
 #### Full update & clean
 ```sudo apt update ; sudo apt-get autoclean ; sudo apt-get clean ; sudo apt-get autoremove --purge -y```
 #### Remove old recalcitrant kernels
