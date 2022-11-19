@@ -8,11 +8,11 @@
 ```gsettings set org.mate.panel locked-down true```
 #### Wine insaller
 ```wine uninstaller```
+#### Wine kill app
+```wineserver -k```
 #### Run wine app fullscreen
 ```
 #!/bin/bash
 export WINEPREFIX='/home/home/.wine/VirtualDesktopApplication'
 wine explorer /desktop=POK,1366x768 '/home/home/.wine/drive_c/Games/jeux.exe'
 ```
-#### Wine kill app
-wineserver -k```
