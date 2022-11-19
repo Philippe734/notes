@@ -6,7 +6,7 @@
 ```sudo apt-mark auto $(apt-mark showmanual | egrep 'linux-.*[0-9]' | grep -v "hwe") && sudo apt-get autoremove --purge -y```
 #### Lock panel
 ```gsettings set org.mate.panel locked-down true```
-#### Wine insaller
+#### Wine installer
 ```wine uninstaller```
 #### Wine kill app
 ```wineserver -k```
