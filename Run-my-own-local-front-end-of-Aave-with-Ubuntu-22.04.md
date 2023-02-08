@@ -24,5 +24,5 @@ http://localhost:3000
 
 ## for the next times, from the directory "interface" execute
 ```
-yarn dev
+yarn upgrade && yarn dev
 ```
