@@ -24,5 +24,5 @@ http://localhost:3000
 
 ## for the next times, from the directory "interface" execute
 ```
-yarn upgrade && yarn dev
+sudo npm install npm -g && yarn upgrade && yarn dev
 ```
