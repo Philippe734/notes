@@ -8,8 +8,10 @@ killall mate-panel
 sleep 5s
 dconf reset -f /
 ```
-#### Open control center from terminal:
+#### Open control center from terminal
 ```mate-control-center```
+#### Reinstall desktop's files system
+```sudo apt install ubuntu-mate-desktop```
 #### Full update & clean
 ```sudo apt update ; sudo apt-get autoclean ; sudo apt-get clean ; sudo apt-get autoremove --purge -y```
 #### Remove old recalcitrant kernels
