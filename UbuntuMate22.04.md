@@ -1,7 +1,15 @@
+#### Reset environment, layout and desktop
+```
+dconf write /org/mate/marco/general/theme "'Yaru'"
+dconf write /org/mate/desktop/interface/gtk-theme "'Yaru'"
+mate-panel --reset --layout redmond
+sleep 5s
+killall mate-panel
+sleep 5s
+dconf reset -f /
+```
 #### Open control center from terminal:
 ```mate-control-center```
-#### Set layout panel to Redmond with terminal
-```mate-panel --reset --layout redmond && killall mate-panel```
 #### Full update & clean
 ```sudo apt update ; sudo apt-get autoclean ; sudo apt-get clean ; sudo apt-get autoremove --purge -y```
 #### Remove old recalcitrant kernels
