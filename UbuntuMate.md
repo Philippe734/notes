@@ -13,7 +13,7 @@ dconf reset -f /
 #### Reinstall desktop's files system
 ```sudo apt install ubuntu-mate-desktop```
 #### Full update & clean
-```sudo apt update ; sudo apt-get autoclean ; sudo apt-get clean ; sudo apt-get autoremove --purge -y```
+```sudo apt update ; sudo apt full-upgrade -y ; sudo apt-get autoclean ; sudo apt-get clean ; sudo apt-get autoremove --purge -y```
 #### Remove old recalcitrant kernels
 ```sudo apt-mark auto $(apt-mark showmanual | egrep 'linux-.*[0-9]' | grep -v "hwe") && sudo apt-get autoremove --purge -y```
 #### Lock panel
