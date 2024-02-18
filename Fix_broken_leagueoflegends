@@ -1,0 +1,9 @@
+Fix broken League of Legends on Linux with a friend and without download whole game
+From friend comptuer : compress the game folder to zip (or tar for linux)
+On your computer :
+Install Lutris flatpak, download and set « wine GE lol » to default wine.
+Download the official setup.exe to install LOL
+Use Lutris to run LOL setup.exe and wait on the splash screen ready to install.
+Extract game compressed in the folder game ready to install.
+Back on the splash screen ready to install LOL and click on Install, it will check and repair the game.
+With Lutris, create a new installed game from file, then select the LeagueoflegendsClient.exe from the game folder and set the « wine GE lol » to use.
